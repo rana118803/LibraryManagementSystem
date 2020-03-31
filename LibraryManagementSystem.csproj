@@ -128,14 +128,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\admin.cs" />
-    <Compile Include="Areas\Model1.cs" />
-    <Compile Include="Areas\sysdiagrams.cs" />
-    <Compile Include="Areas\tblauthors.cs" />
-    <Compile Include="Areas\tblbooks.cs" />
-    <Compile Include="Areas\tblcategory.cs" />
-    <Compile Include="Areas\tblissuedbookdetails.cs" />
-    <Compile Include="Areas\tblstudents.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
