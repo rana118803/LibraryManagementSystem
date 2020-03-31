@@ -128,9 +128,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\adminsController.cs" />
-    <Compile Include="Areas\Admin\Controllers\tblcategoriesController.cs" />
+    <Compile Include="Areas\admin.cs" />
+    <Compile Include="Areas\Model1.cs" />
+    <Compile Include="Areas\sysdiagrams.cs" />
+    <Compile Include="Areas\tblauthors.cs" />
+    <Compile Include="Areas\tblbooks.cs" />
+    <Compile Include="Areas\tblcategory.cs" />
+    <Compile Include="Areas\tblissuedbookdetails.cs" />
+    <Compile Include="Areas\tblstudents.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -194,11 +199,6 @@
     <Content Include="Areas\Admin\Style\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Areas\Admin\Style\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Areas\Admin\Style\fonts\glyphicons-halflings-regulard41d.eot" />
-    <Content Include="Areas\Admin\Views\tblcategories\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\tblcategories\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\tblcategories\Details.cshtml" />
-    <Content Include="Areas\Admin\Views\tblcategories\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\tblcategories\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -257,6 +257,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Data\" />
   </ItemGroup>
   <ItemGroup>
